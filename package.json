@@ -1,6 +1,6 @@
 {
-  "name": "reat-pdf-printer",
-  "version": "0.1.0",
+  "name": "react-pdf-print",
+  "version": "0.1.1",
   "description": "Prints web pages into multipage pdf file",
   "author": {
     "name": "Frame System",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/framesystem/react-pdf-printer"
+    "url": "https://github.com/framesystem/react-pdf-print"
   },
   "keywords": [
     "react",
