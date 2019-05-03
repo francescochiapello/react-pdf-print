@@ -1,6 +1,7 @@
 {
   "name": "react-pdf-print",
-  "version": "0.1.1",
+  "version": "0.1.2",
+  "main": "src/index.js",
   "description": "Prints web pages into multipage pdf file",
   "author": {
     "name": "Frame System",
