@@ -1,7 +1,7 @@
 react-pdf-print
 ----
 
-Prints web pages into multipage pdf file
+This component print web page into multipage pdf file
 
 ### Installation
 
@@ -17,10 +17,10 @@ $ yarn add react-pdf-print
 
 ### Usage
 To create a new app run
+```sh
+$ npx create-react-app example
 ```
-npx create-react-app example
-```
-then contain your div into the printer component
+then include your div into the Printer component
 ```
 import React, { Component } from 'react';
 import Printer, { print } from 'react-pdf-print'
