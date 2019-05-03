@@ -1,5 +1,5 @@
 {
-  "name": "printer",
+  "name": "reat-pdf-printer",
   "version": "0.1.0",
   "description": "Prints web pages into multipage pdf file",
   "author": {
