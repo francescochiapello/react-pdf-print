@@ -1,16 +1,16 @@
 react-pdf-print
 ----
 
-This component print web page into multipage pdf file
+This component prints web page into multipage pdf file
 
 ### Installation
 
-Install the component with Npm or Yarn
+Install the component with Npm
 
 ```sh
 $ npm i react-pdf-print
 ```
-or
+or Yarn
 ```sh
 $ yarn add react-pdf-print
 ```
@@ -20,7 +20,7 @@ To create a new app run
 ```sh
 $ npx create-react-app example
 ```
-then include your div into the Printer component
+then include your divs into the Printer component. To print the page you must to call the print() method that expects an array of ids as param. In this first beta release you must to specify the div dimension in order to print A4 document.
 ```
 import React, { Component } from 'react';
 import Printer, { print } from 'react-pdf-print'
@@ -37,7 +37,7 @@ class App extends Component{
             </div>
         </Printer>
         <input type='button' style={{ position: 'relative', float: 'right' }}
-          onClick={() => print(ids[0])} value='Stampa' />
+          onClick={() => print(ids)} value='Stampa' />
       </div>
     )
   }
