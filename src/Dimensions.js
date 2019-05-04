@@ -1,57 +1,57 @@
-export default = [
+export const Dimensions = [
   {
     name: 'A0',
-    width: '841',
-    height: '1189'
+    width: '841mm',
+    height: '1189mm'
   },
   {
     name: 'A1',
-    width: '594',
-    height: '841'
+    width: '594mm',
+    height: '841mm'
   },
   {
     name: 'A2',
-    width: '420',
-    height: '594'
+    width: '420mm',
+    height: '594mm'
   },
   {
     name: 'A3',
-    width: '297',
-    height: '420'
+    width: '297mm',
+    height: '420mm'
   },
   {
     name: 'A4',
-    width: '210',
-    height: '297'
+    width: '210mm',
+    height: '297mm'
   },
   {
     name: 'A5',
-    width: '148',
-    height: '210'
+    width: '148mm',
+    height: '210mm'
   },
   {
     name: 'A6',
-    width: '105',
-    height: '148'
+    width: '105mm',
+    height: '148mm'
   },
   {
     name: 'A7',
-    width: '74',
-    height: '105'
+    width: '74mm',
+    height: '105mm'
   },
   {
     name: 'A8',
-    width: '52',
-    height: '74'
+    width: '52mm',
+    height: '74mm'
   },
   {
     name: 'A9',
-    width: '37',
-    height: '52'
+    width: '37mm',
+    height: '52mm'
   },
   {
     name: 'A10',
-    width: '26',
-    height: '37'
+    width: '26mm',
+    height: '37mm'
   }
 ]
