@@ -30,9 +30,7 @@
     "start-react": "react-script start",
     "lint": "standard --verbose | snazzy",
     "lint-fix": "standard --fix",
-    "build": "webpack",
-    "npm-login": "npm login",
-    "npm-publish": "npm publish"
+    "build": "webpack"
   },
   "eslintConfig": {
     "extends": "react-app"
